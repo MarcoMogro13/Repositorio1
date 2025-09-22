@@ -204,6 +204,8 @@ print(summary(Temperatura$ET))
 cat("\nEvapotranspiracion promedio por Year:\n")
 print(et_anual)
 
+
+
 # Guardar resultados
 # Descomenta las siguientes líneas si quieres guardar los archivos
 # write.csv(Temperatura, "C:/9.CLASES/Database_Complete/Paute/Resultados_ET_Paute_Completo.csv", row.naMonth = FALSE)
