@@ -11,19 +11,17 @@ options(encoding = "UTF-8")
 Sys.setlocale("LC_ALL", "C")
 
 # Cargar librerías
-suppressWarnings({
-  library(data.table)
-  library(dplyr)
-  library(Evapotranspiration)
-  library(SPEI)
-  library(terra)
-  library(ggplot2)
-  library(gridExtra)
-  library(tibble)
-  library(tidyr)
-  library(lubridate)
-  library(scales)
-})
+library(data.table)
+library(dplyr)
+library(Evapotranspiration)
+library(SPEI)
+library(terra)
+library(ggplot2)
+library(gridExtra)
+library(tibble)
+library(tidyr)
+library(lubridate)
+library(scales)
 
 cat("Librerias cargadas exitosamente\n")
 
@@ -211,3 +209,5 @@ print(et_anual)
 # write.csv(Temperatura, "C:/9.CLASES/Database_Complete/Paute/Resultados_ET_Paute_Completo.csv", row.naMonth = FALSE)
 # ggsave("ET_Serie_Temporal.png", p1, width = 12, height = 8, dpi = 300)
 # ggsave("ET_Analisis_Complementario.png", arrangeGrob(p3, p4, p5, ncol = 1), width = 12, height = 16, dpi = 300)
+
+
